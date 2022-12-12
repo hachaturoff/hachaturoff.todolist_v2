@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/sass.0a7c4b30.css">
+    <title>ToDoList. Sass.</title>
+<script src="/sass.0a7c4b30.js"></script></head>
+<body>
+   
+  <section class="header">
+      <div class="header__container">
+        <div class="header__wrapper">
+          <div class="logo">
+            <h2>ToDo</h2>
+          </div>
+          <div class="logo-title">
+            <h2>What Can I Do Today</h2>
+          </div>
+          <div class="date">
+            <h2 id="date-header">03.12.2022</h2>
+          </div>
+        </div>
+      </div>
+  </section>
+  
+
+  <section class="todo-list">
+
+    <div class="todo-list-wrapper">
+        <div class="make-todo-column">
+            <div class="make-todo title">
+                <div class="make-todo-title-text">
+                  <h3>Make ToDo</h3>
+                </div>
+                <div class="option">
+                    <div class="option-plus-img">
+                        <img src="/free-icon-plus-7915468.d1418aa3.png" alt="plus">
+                    </div>
+                    <div class="option-delete-img">
+                        <img class="img-make-delete" src="/free-icon-bin-5375931.5ca6d136.png" alt="delete">
+                    </div>
+                </div>
+            </div>
+
+
+      
+            <div class="total">
+                <p>Total:</p>
+                <span class="total-all-num">7</span>
+            </div>
+
+            <div class="make-tasks-list">
+
+            </div>
+        </div>
+
+        <!-- <section class="todo-list">
+            <div class="todo-list-wrapper">
+                <div class="make-todo-column">
+                    <div class="make-todo title">
+                        <h3>Make ToDo</h3>
+                        <div class="option">
+                            <div class="option-plus-img">
+                                <img src="./img/free-icon-plus-7915468.png" alt="plus">
+                            </div>
+                            <div class="option-delete-img">
+                                <img src="./img/free-icon-bin-5375931.png" alt="delete">
+                            </div>
+                        </div>
+                    </div> -->
+        
+        <div class="in-progress-column">
+            <div class="in-progress title">
+                <h3>In Progress</h3>
+
+                <div class="option-delete-img">
+                    <img class="img-prog-delete" src="/free-icon-bin-5375931.5ca6d136.png" alt="delete">
+                </div>
+            </div>
+
+            <div class="total">
+                <p>Total:</p>
+                <span class="total-complete-num">7</span>
+            </div>
+
+            <div class="progress-tasks-list">
+
+            </div>
+        </div>
+
+
+        <div class="done-column">
+            <div class="done title">
+                <h3>Done</h3>
+
+                <div class="option-delete-img">
+                    <img class="img-done-delete" src="/free-icon-bin-5375931.5ca6d136.png" alt="delete">
+                </div>
+            </div>
+
+            <div class="total">
+                <p>Total:</p>
+                <span class="total-done-num">7</span>
+            </div>
+
+            <div class="done-tasks-list">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+  <div class="pop-up">
+      <div class="pop-up-wrapper">
+          <div class="pop-title">
+              <h1 class="main-title">Fill in all required fields</h1>
+              <button class="close-button">x</button>
+          </div>
+          <hr>
+          <form name="form-task" action="">
+              <h2>Title:</h2>
+              <input name="task" class="pop-task" type="text" placeholder="Enter title for your note">
+
+              <h2>Description:</h2>
+              <input name="descr" class="pop-descr" type="text" placeholder="Enter description for your note">
+              <h3>Author:</h3>
+              <input name="author" type="pop-author" placeholder="Author">
+
+
+              <div class="option">
+                  <button class="create-button">Create</button>
+
+              </div>
+          </form>
+          <button class="close-button">Cancel</button>
+      </div>
+  </div>
+ 
+
+
+    <script type="module" src="/js.00a46daa.js"></script>
+</body>
+</html>

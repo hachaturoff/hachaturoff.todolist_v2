@@ -1,0 +1,235 @@
+@import "https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-family: Raleway, Cardo, sans-serif;
+}
+
+body {
+  height: 100%;
+  background-color: #f6f4f4;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.header__container {
+  width: 100%;
+  background-color: #fff;
+  margin: auto;
+  padding: 0 15px;
+  box-shadow: 10px 3px 10px 2px #0000001a;
+}
+
+.header__wrapper {
+  width: 1170px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 0;
+  display: flex;
+}
+
+.logo h2 {
+  color: #ee7d54;
+  font-family: Raleway;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.logo-title h2 {
+  color: #27cfe6;
+  font-family: Raleway;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.date h2 {
+  color: #524b48;
+  width: 50px;
+  font-family: Raleway;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.todo-list {
+  width: 1170px;
+  position: relative;
+}
+
+.todo-list-wrapper {
+  justify-content: space-around;
+  margin: 30px auto;
+  display: flex;
+}
+
+.make-todo-column {
+  width: 360px;
+}
+
+.title {
+  background-color: #fff;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 18px 0;
+  display: flex;
+  box-shadow: 6px 3px 10px 2px #0000001a;
+}
+
+h3 {
+  color: #000;
+  color: #000;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.option {
+  display: flex;
+}
+
+.option div {
+  margin-left: 20px;
+}
+
+.option-plus-img img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.delete p {
+  color: #27cfe6;
+}
+
+.option-delete-img img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.in-progress-column, .done-column {
+  width: 360px;
+}
+
+.total {
+  font-family: Raleway;
+  font-style: bolder;
+  color: #000;
+  background-color: #fff;
+  border-radius: 10px;
+  justify-content: space-around;
+  margin: 10px 0 0;
+  padding: 10px 0;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+  display: flex;
+  box-shadow: 6px 3px 10px 2px #0000001a;
+}
+
+.tasks-list {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px 0 0;
+  padding: 15px;
+  box-shadow: 6px 3px 10px 2px #0000001a;
+}
+
+.task-date {
+  justify-content: space-around;
+  display: flex;
+}
+
+.task {
+  min-height: 200px;
+  min-width: 330px;
+  background-color: #e6f1f1;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 6px 3px 10px 2px #0000001a;
+}
+
+.task .task-wrapper {
+  min-height: 90px;
+  width: 300px;
+  margin-left: 5px;
+  position: relative;
+}
+
+.task .task-nd {
+  min-height: 90px;
+  flex-direction: column;
+  display: flex;
+}
+
+.task-name {
+  font-family: Raleway;
+  font-style: bold;
+  color: #000;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.task .task-nd .task-descr {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.task button {
+  box-sizing: border-box;
+  height: 20px;
+  width: 80px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #c468e8;
+  border: none;
+  border-radius: 10px;
+  bottom: 0;
+  right: 0;
+}
+
+.task hr {
+  margin: 15px;
+}
+
+.task .delete {
+  justify-content: space-around;
+  display: flex;
+}
+
+.delete p {
+  font-family: Raleway;
+  font-style: bold;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.option-delete {
+  margin-left: 20px;
+  display: flex;
+}
+
+.option-delete-img img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=index.b07a87f3.css.map */

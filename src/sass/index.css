@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f6f4f4;
+}
+
+.header__container {
+  width: 100%;
+  margin: auto;
+  padding: 0 15px;
+  background-color: #fff;
+  box-shadow: 10px 3px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.header__wrapper {
+  width: 1170px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.logo h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: rgb(238, 125, 84);
+}
+
+.logo-title h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: rgb(39, 207, 230);
+}
+
+.date h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: rgb(82, 75, 72);
+  width: 50px;
+}
+
+.todo-list {
+  position: relative;
+  width: 1170px;
+}
+
+.todo-list-wrapper {
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.make-todo-column {
+  width: 360px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 18px 0;
+  box-shadow: 6px 3px 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: black;
+  color: black;
+}
+
+.option {
+  display: flex;
+}
+
+.option div {
+  margin-left: 20px;
+}
+
+.option-plus-img img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.delete p {
+  color: rgb(39, 207, 230);
+}
+
+.option-delete-img img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.in-progress-column {
+  width: 360px;
+}
+
+.done-column {
+  width: 360px;
+}
+
+.total {
+  margin: 10px 0 0 0;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 6px 3px 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #fff;
+  font-family: "Raleway";
+  font-style: bolder;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  color: black;
+}
+
+.tasks-list {
+  margin: 10px 0 0 0;
+  padding: 15px;
+  box-shadow: 6px 3px 10px 2px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.task-date {
+  display: flex;
+  justify-content: space-around;
+}
+
+.task {
+  margin-top: 10px;
+  min-height: 200px;
+  min-width: 330px;
+  padding: 10px;
+  background-color: #e6f1f1;
+  border-radius: 10px;
+  box-shadow: 6px 3px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.task .task-wrapper {
+  margin-left: 5px;
+  min-height: 90px;
+  width: 300px;
+  position: relative;
+}
+
+.task .task-nd {
+  min-height: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.task-name {
+  font-family: "Raleway";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  color: black;
+}
+
+.task .task-nd .task-descr {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.task button {
+  box-sizing: border-box;
+  height: 20px;
+  width: 80px;
+  bottom: 0;
+  right: 0;
+  border: none;
+  background-color: #c468e8;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.task hr {
+  margin: 15px;
+}
+
+.task .delete {
+  display: flex;
+  justify-content: space-around;
+}
+
+.delete p {
+  font-family: "Raleway";
+  font-style: bold;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.option-delete {
+  display: flex;
+  margin-left: 20px;
+}
+
+.option-delete-img img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.pop-up {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pop-up-wrapper {
+  top: 100px;
+  left: 25%;
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 0 15px 0 15px;
+  border-radius: 10px;
+  box-shadow: 6px 3px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.pop-up .close {
+  border-radius: 10px;
+  width: 18px;
+  margin: 0;
+}
+
+.pop-up * {
+  margin: 8px;
+}
+
+.pop-up .pop-descr {
+  height: 50px;
+}
+
+.pop-up form {
+  display: flex;
+  flex-direction: column;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.error {
+  border: 0.5px solid red;
+}
+
+/*# sourceMappingURL=index.css.map */

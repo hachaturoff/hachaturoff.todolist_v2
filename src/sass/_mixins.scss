@@ -1,0 +1,52 @@
+// @mixin h6 {
+//   font-family: 'Raleway';
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: $_13px;
+//   line-height: 15px;
+//   text-transform: uppercase;
+    
+// }
+
+@mixin h3 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: $black;
+}
+
+@mixin h2 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  
+}
+// @mixin card-text {
+//   font-family: 'Raleway';
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: $_18px;
+//   line-height: 21px;
+//   color: $black;
+// }
+@mixin total {
+  font-family: 'Raleway';
+  font-style: bolder;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  color: $black;
+}
+
+@mixin task-name {
+  font-family: 'Raleway';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    color: $black;
+}
